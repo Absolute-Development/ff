@@ -1,0 +1,95 @@
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+}
+
+.bgimg {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/img/bgimg-1.png");
+}
+
+
+#bg1 { min-height: 100%;
+ }
+#bg2 { min-height: 300px;
+ }
+
+.bar {
+  color:black;
+  background-color:LightBlue;
+  text-align:center;
+  padding:50px 80px;
+  text-align: center;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  border-radius: 10px;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+ /* table */
+ * {
+     box-sizing: inherit;
+ }
+
+ tr:nth-child(odd) {
+ 	background-color: #80bfff;
+ }
+
+ table {
+     font-family: arial, sans-serif;
+     border-collapse: collapse;
+     width: 50%;
+     border-radius: 5px;
+ }
+
+ td, th {
+     border: 2px solid #dddddd;
+     text-align: left;
+     padding: 8px;
+ }
+
+ tr:nth-child(even) {
+     background-color: #99ccff;
+ }
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg {
+        background-attachment: scroll;
+    }
+    body, html {
+      font-size: 30px;
+}
+
+footer {
+  background-color: DimGrey;
+}
+background-color: DimGrey;
